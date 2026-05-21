@@ -4,8 +4,8 @@
 
 Peru Compras es la plataforma del Estado peruano donde las entidades públicas realizan compras de bienes y servicios a través de catálogos electrónicos preaprobados. Este proyecto extrae, limpia, modela y analiza **474,845 órdenes de compra reales** registradas entre 2022 y 2025, con el objetivo de caracterizar cómo, cuándo y con quién compran las entidades públicas peruanas.
 
-<img width="1207" height="726" alt="dashboard_grandes_compras" src="https://github.com/user-attachments/assets/096010c4-43dd-4180-ab86-30d0496aabd0" />
-<img width="1212" height="732" alt="dashboard_compras_ordinarias" src="https://github.com/user-attachments/assets/65fa9453-853b-40ed-8f8c-cdc612b52635" />
+<img width="1212" height="732" alt="dashboard_compras_ordinarias" src="https://github.com/user-attachments/assets/6de2aa9a-6646-4996-a203-d938173317c3" />
+<img width="1203" height="727" alt="dashboard_grandes_compras" src="https://github.com/user-attachments/assets/d26c9647-034c-48c6-a7f5-8478e4a036b7" />
 
 ## ¿A quién le sirve?
 
