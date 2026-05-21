@@ -59,6 +59,10 @@ A través de análisis exploratorio y visualización de datos, se busca facilita
 
 Construido sobre un modelo estrella con 3 dimensiones y conectado a los CSVs normalizados. Incluye 2 páginas analíticas con narrativa propia.
 
+<img width="1207" height="726" alt="dashboard_grandes_compras" src="https://github.com/user-attachments/assets/096010c4-43dd-4180-ab86-30d0496aabd0" />
+<img width="1212" height="732" alt="dashboard_compras_ordinarias" src="https://github.com/user-attachments/assets/65fa9453-853b-40ed-8f8c-cdc612b52635" />
+
+
 ### Medidas DAX:
 - `Cantidad Ordenes Años Completos` — Filtra automáticamente años completos para evitar sesgos por años incompletos
 - `% cercanía` — Concentración de órdenes de una entidad hacia un proveedor específico
