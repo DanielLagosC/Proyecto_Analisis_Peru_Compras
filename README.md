@@ -12,6 +12,13 @@ Peru Compras es la plataforma del Estado peruano donde las entidades públicas r
 
 ---
 
+## 🎯 Objetivo del Proyecto
+Este proyecto tiene como finalidad explorar y perfilar el comportamiento de las compras públicas en el Perú a partir de datos gubernamentales abiertos.
+
+A través de análisis exploratorio y visualización de datos, se busca facilitar la interpretación de patrones de gasto, comportamiento de entidades públicas y concentración de proveedores, permitiendo obtener una visión más clara del manejo transaccional y presupuestal del Estado.
+
+---
+
 ## 🔍 Hallazgos Principales
 
 1. **Tendencia descendente con gasto mediano creciente:** El volumen anual de órdenes decreció de 137K (2022) a 91K (2025), mientras el gasto mediano por orden aumentó sostenidamente, sugiriendo una consolidación progresiva de las compras.
