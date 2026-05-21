@@ -4,6 +4,9 @@
 
 Peru Compras es la plataforma del Estado peruano donde las entidades públicas realizan compras de bienes y servicios a través de catálogos electrónicos preaprobados. Este proyecto extrae, limpia, modela y analiza **474,845 órdenes de compra reales** registradas entre 2022 y 2025, con el objetivo de caracterizar cómo, cuándo y con quién compran las entidades públicas peruanas.
 
+<img width="1207" height="726" alt="dashboard_grandes_compras" src="https://github.com/user-attachments/assets/096010c4-43dd-4180-ab86-30d0496aabd0" />
+<img width="1212" height="732" alt="dashboard_compras_ordinarias" src="https://github.com/user-attachments/assets/65fa9453-853b-40ed-8f8c-cdc612b52635" />
+
 ## ¿A quién le sirve?
 
 - **Auditores y analistas de la Contraloría** para identificar patrones de concentración de proveedores
@@ -42,8 +45,7 @@ A través de análisis exploratorio y visualización de datos, se busca facilita
 ### 1. Limpieza
 - Corrección de tipos de datos: RUCs como identificadores string, fechas a datetime con formatos inconsistentes por lote
 - Estandarización de strings: strip, uppercase, corrección de caracteres mal codificados en latin-1
-- Consolidación de ACUERDO_MARCO de 95 a 30 categorías únicas eliminando códigos adjuntos y variantes de tilde
-- Corrección de TIPO_PROCEDIMIENTO: 24,587 registros mal clasificados reasignados según criterio normativo del umbral de S/ 100,000
+- Limpieza de columnas concretas según sus reglas de negocio específicas
 - Validación de coherencia matemática SUB_TOTAL + IGV = TOTAL
 - Validación de fechas con días_in_month
 
@@ -58,10 +60,6 @@ A través de análisis exploratorio y visualización de datos, se busca facilita
 ## 📊 Power BI Dashboard
 
 Construido sobre un modelo estrella con 3 dimensiones y conectado a los CSVs normalizados. Incluye 2 páginas analíticas con narrativa propia.
-
-<img width="1207" height="726" alt="dashboard_grandes_compras" src="https://github.com/user-attachments/assets/096010c4-43dd-4180-ab86-30d0496aabd0" />
-<img width="1212" height="732" alt="dashboard_compras_ordinarias" src="https://github.com/user-attachments/assets/65fa9453-853b-40ed-8f8c-cdc612b52635" />
-
 
 ### Medidas DAX:
 - `Cantidad Ordenes Años Completos` — Filtra automáticamente años completos para evitar sesgos por años incompletos
