@@ -72,7 +72,7 @@ Construido sobre un modelo estrella con 3 dimensiones y conectado a los CSVs nor
 - Gráfico de líneas dual (volumen vs gasto mediano, tendencia anual y mensual)
 - Tabla de concentración entidad-proveedor con % de cercanía
 - Gráfico combinado barras + línea (entidades y proveedores por volumen y gasto)
-- Gráfico de torta (distribución de gasto por acuerdo marco)
+- Gráfico de barras horizontales (distribución de gasto por acuerdo marco)
 - Slicers: Año, Tipo de procedimiento, Afectado por IGV
 ---
 
@@ -86,7 +86,7 @@ Construido sobre un modelo estrella con 3 dimensiones y conectado a los CSVs nor
 
 ## 🛠️ Herramientas
 
-- **Python 3.14** — Librerías: 'requests', 'pandas', 'numpy', 'os'
+- **Python 3.14** — Aislamiento de entorno virtual (.venv). Librerías: 'requests', 'pandas', 'numpy', 'os'
 - **Power BI Desktop** — 'DAX', modelo estrella
 - **GitHub** — control de versiones
 
